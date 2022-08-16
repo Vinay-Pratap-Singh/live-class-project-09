@@ -172,7 +172,6 @@ nav svg{
   color: white;
 }
 
-
 .download-section{
   margin-left: 60px;
   margin-top: 5%;
@@ -256,4 +255,195 @@ nav svg{
 
 .footer-logos{
   margin: 0 10px;
+}
+
+/* Mobile Responsivness */
+@media only screen and (max-width: 600px) {
+  header{
+    padding-top: 15px;
+    height: auto;
+  }
+  
+  nav{
+    margin: 0;
+    justify-content: center;
+  }
+  
+  .nav-item{
+    padding: 0;
+    margin-right: 5px;
+  }
+  
+  nav svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    font-size: 10px;
+  }
+
+  nav-item-active{
+    padding: 5px;
+    font-size: 10px;
+  }
+  
+  .logo{
+    width: 40px;
+    height: 15px;
+    margin: 0 5px;
+  }
+  
+  .header-image{
+    position: static;
+    height: 400px;
+    width: 98vw;
+  }
+  
+  .header-text{
+    text-align: center;
+    line-height: 40px;
+    margin: 5px;
+  }
+  
+  .header-text h2{
+    font-size: 1.8rem;
+  }
+
+  .companies{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .companies a{
+    font-size: 1rem;
+    padding: 0 5px;
+  }
+  
+  .api{
+    margin: 0 5px;
+    text-align: center;
+  }
+
+  .api h1{
+    font-size: 1.8rem;
+  }
+  
+  .cards{
+    margin: 0px 5px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .blog-heading h1{
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  
+  .blog-heading{
+    margin: 10px 0;
+  }
+
+  .blog-image img{
+    width: 95vw;
+    height: 300px;
+  }
+  
+  .blog-cards{
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .blog-card{
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .blog-card-right{
+    margin: 0;
+    width: 100vw;
+    text-align: center;
+  }
+    
+  .bottom-one{
+    margin-top: 10px;
+  }  
+
+
+  .faq-section{
+    margin: 20px 10px;
+    flex-direction: column-reverse;
+  }
+
+  .faq-image img{
+    width: 95vw;
+  }
+  
+  .faq-content h2{
+    font-size: 1.8rem;
+  }
+  
+  .faq-content h4{
+    padding: 5px 0;
+  }
+
+  .download-section{
+    margin: 10px ;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .download-email{
+    width: 100%;
+    margin: auto;
+  }
+  
+  .download-email input{
+    margin: 10px auto;
+    padding: 0;
+    padding-left: 20%;
+  }
+  
+  
+  .footer-section{
+    padding: 0;
+    flex-direction: column;
+  }
+  
+  .footer-left{
+    margin: 7% 0;
+  }
+  
+  .list{
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .list li{
+    padding: 0 8px;
+  }
+
+  .footer-right-main{
+    margin: 0;
+  }
+
+  .logos-list{
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+  }
+  
+  .logos-list li{
+    font-size: 12px;
+    padding: 0 15px;
+  }
+  
+  .footer-logos{
+    margin: 0 10px;
+  }
+
 }

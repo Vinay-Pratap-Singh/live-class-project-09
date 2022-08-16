@@ -260,11 +260,12 @@ nav svg{
 /* Mobile Responsivness */
 @media only screen and (max-width: 600px) {
   header{
-    padding-top: 15px;
     height: auto;
+    padding-top: 15px;
   }
   
   nav{
+    padding: 0 10px;
     margin: 0;
     justify-content: center;
   }
@@ -287,8 +288,8 @@ nav svg{
   }
   
   .logo{
-    width: 40px;
-    height: 15px;
+    width: 50px;
+    height: 20px;
     margin: 0 5px;
   }
   
@@ -370,7 +371,6 @@ nav svg{
   .bottom-one{
     margin-top: 10px;
   }  
-
 
   .faq-section{
     margin: 20px 10px;
